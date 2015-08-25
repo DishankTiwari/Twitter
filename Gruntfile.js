@@ -14,6 +14,6 @@ module.exports = function(grunt) {
     });
     grunt.loadNpmTasks('grunt/node_modules/grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt/node_modules/grunt-contrib-jshint');
-    grunt.registerTask('lint', ['jshint']);
+    grunt.registerTask('lint', ['jshint', 'jasmine']);
 };
 
